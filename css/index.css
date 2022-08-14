@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+    font-family: 'Poppins';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.nav-item.active-item{
+    color: #FE5E35;
+}
+
+.intro-section{
+    display: flex;
+}
+
+.discount{
+    position: absolute;
+    top: 420px;
+    right: 475px;
+}
+
+.discount-content{
+    position: absolute;
+    top: 460px;
+    right: 515px;
+    color: #ffffff;
+}
+
+.discount-content>h1{
+    font-size: 50px;
+}
+
+.discount-content>h4{
+    text-align: center;
+}
+
+.yellow-dot{
+    margin: 0 15px;
+    height: 30px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #E8BD0D;
+}
+
+.tomato-dot{
+    margin: 0 15px;
+    height: 30px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FE5E35;
+}
+
+.black-dot{
+    margin: 0 15px;
+    height: 30px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #000000;
+}
+
+.dots{
+    text-align: center;
+}
+
+.action-btn{
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    background-color: #FE5E35;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section>h3{
+    display: flex ;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+.left-section>h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.sub-headline>img{
+    background-color: #FE5E35;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.sub-headline{
+    font-size: 25px;
+    font-weight: unset;
+    padding: 10px;
+    
+}
+
+.sub-headlines{
+    margin-left: 90px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.text{
+    font-weight: unset;
+}
+
+.action-btns{
+    margin-top: 40px
+}
