@@ -82,7 +82,7 @@ nav{
 .dots{
     text-align: center;
 }
-
+ 
 .action-btn{
     margin: 20px 0;
     padding: 15px;
@@ -145,3 +145,79 @@ nav{
 .action-btns{
     margin-top: 40px
 }
+
+@media screen and (max-width: 1144px) {
+    .intro-section{
+        flex-direction: column;
+    }
+    .discount{
+        top: 1170px;
+        left: 190px;
+        
+    }
+    .discount-content{
+        top: 1210px;
+        left: 230px;
+        width: 100px;
+    }
+  }
+
+
+@media screen and (max-width: 990px) {
+    .discount{
+        left: 130px;
+        
+    }
+    .discount-content{
+        left: 190px;
+        width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 846px) {
+    .discount{
+        top: 1300px;
+        left: 90px;
+        
+    }
+    .discount-content{
+        top: 1340px;
+        left: 120px;
+        width: 100px;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .discount{
+        left: 60px;
+        
+    }
+    .discount-content{
+        left: 90px;
+        width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .discount{
+        left: 30px;
+        
+    }
+    .discount-content{
+        left: 60px;
+        width: 100px;
+    }
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .discount{
+        left: 5px;
+        
+    }
+    .discount-content{
+        left: 40px;
+        width: 100px;
+    }
+  }
