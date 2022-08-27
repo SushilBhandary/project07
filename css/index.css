@@ -20,7 +20,7 @@ nav{
     padding: 20px;
 }
 
-.nav-item.active-item{
+.nav-item:hover{
     color: #FE5E35;
 }
 
@@ -40,7 +40,7 @@ nav{
     right: 515px;
     color: #ffffff;
 }
-
+ 
 .discount-content>h1{
     font-size: 50px;
 }
@@ -92,6 +92,12 @@ nav{
     border: 0;
     color: white;
     font-size: 20px;
+}
+
+.action-btn:hover{
+    color: #FE5E35;
+    border: 2px solid #FE5E35;
+    background-color: #ffffff;
 }
 
 .right-section{
